@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoftwareType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Keyboard</Name>
+  <Description>Keyboard for your PC</Description>
+  <Categories>
+    <Category Name="Keyboard">
+      <Description>Its a keyboard</Description>
+      <Popularity>0.95</Popularity>
+      <Retention>0.5</Retention>
+      <TimeScale>1</TimeScale>
+      <Iterative>50</Iterative>
+    </Category>
+  </Categories>
+  <Random>0</Random>
+  <Popularity>0.95</Popularity>
+  <OSSpecific>FALSE</OSSpecific>
+  <OneClient>FALSE</OneClient>
+  <InHouse>FALSE</InHouse>
+  <Category />
+  <OSLimit />
+  <Features>
+    <Feature From="" Research="" Vital="TRUE" Forced="FALSE">
+      <Name>QWERTY</Name>
+      <Category>Keyboard</Category>
+      <Description>QWERTY</Description>
+      <DevTime>1</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>2</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.25</CodeArt>
+    </Feature>
+    <Feature From="QWERTY" Research="" Vital="FALSE" Forced="FALSE">
+      <Name>Number Pad</Name>
+      <Category>Keyboard</Category>
+      <Description>That thing on the right side of your keyboard</Description>
+      <DevTime>1</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>3</Usability>
+      <Stability>3</Stability>
+      <CodeArt>0.25</CodeArt>
+    </Feature>
+    <Feature From="QWERTY" Research="" Vital="FALSE" Forced="FALSE">
+      <Name>Function Keys</Name>
+      <Category>Keyboard</Category>
+      <Description>Function Keys</Description>
+      <DevTime>1</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>3</Usability>
+      <Stability>3</Stability>
+      <CodeArt>0.25</CodeArt>
+    </Feature>
+    <Feature From="Function Keys" Research="Keyboard Macros" Vital="FALSE" Forced="FALSE">
+      <Name>Macros</Name>
+      <Category>Keyboard</Category>
+      <Description>Press D to type Yeet</Description>
+      <DevTime>2</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>4</Usability>
+      <Stability>3</Stability>
+      <CodeArt>0.25</CodeArt>
+    </Feature>
+    <Feature From="" Research="Lighting" Vital="FALSE" Forced="FALSE">
+      <Name>Lighting</Name>
+      <Category>Keyboard</Category>
+      <Description>Adds Pretty Colors</Description>
+      <DevTime>1</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>3</Usability>
+      <Stability>3</Stability>
+      <CodeArt>0.75</CodeArt>
+    </Feature>
+    <Feature From="Lighting" Research="LED Lighting" Vital="FALSE" Forced="FALSE">
+      <Name>LED Lighting</Name>
+      <Category>Keyboard</Category>
+      <Description>Even More Pretty Colors</Description>
+      <DevTime>1</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>4</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.75</CodeArt>
+    </Feature>
+    <Feature From="LED Lighting" Research="RGB Lighting" Vital="FALSE" Forced="FALSE">
+      <Category>Keyboard</Category>
+      <Name>RGB Lighting</Name>
+      <Description>The most pretty colors possible</Description>
+      <DevTime>2</DevTime>
+      <Innovation>5</Innovation>
+      <Usability>5</Usability>
+      <Stability>5</Stability>
+      <CodeArt>0.75</CodeArt>
+    </Feature>
+  </Features>
+</SoftwareType>
